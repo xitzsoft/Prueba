@@ -1,0 +1,220 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #fffffa;
+}
+header {
+	width: 100%;
+	background: #212121;
+	overflow: hidden;
+}
+/****Título*****/
+#titulo {
+	display: inline-block;
+	float: left;
+}
+#titulo h1 {
+	font-size: 60px;
+	font-weight: bold;
+	color: #9E9E9E;
+}
+#titulo p {
+	font-size: 25px;
+	font-weight: normal;
+	color: #727272;
+}
+/****Menú*****/
+header nav {
+	display: block;
+	float: right;
+	line-height: 130px;
+}
+nav a {
+	display: inline-block;
+	padding: 40px 20px;
+	font-size: 20px;
+	color: #9E9E9E;
+    cursor: pointer;    
+	text-decoration: none;
+	text-align: -webkit-center;
+	line-height: normal;
+
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-transition: all 500ms ease;
+}
+nav span {
+	display: table-cell;
+	font-size: 12px;
+	color: #727272;
+
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-transition: all 500ms ease;
+}
+nav i {
+	color: #727272;
+
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-transition: all 500ms ease;
+}
+/**** Efecto Hover *****/
+nav a:hover {
+	text-decoration: none;
+	color: #285814;
+}
+nav a:hover span {
+	color: #9E9E9E;
+}
+nav a:hover i {
+	color: #9E9E9E;
+}
+/****Imagenes de slide*****/
+.item img {
+	width: 100%;
+}
+/**** Seccion articulos*****/
+.titulares {
+    float: left;
+    display: block;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.titulares h1 {
+    color: #333;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 5px;
+}
+.titulares a {
+    color: forestgreen;
+    text-decoration: underline;
+    -moz-text-decoration-line: underline;
+}
+#iconos{
+    float: left;
+    width: 70px;
+    height: 70px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    background-color: #6ca05f;
+    padding-top: 5px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+article h1 {
+    border-bottom: 1px solid #dadada;
+}
+.visita {
+    font-size: 45px;
+}
+article img {
+    float: left;
+    width: 340px;
+    height: 200px;
+    background-image: url("../image/steve.png");
+    margin-right: 20px;
+}
+#testimonio {
+    font-size: 16px;
+    font-style: italic;
+    background-color: #ccc;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+aside div p {
+    float: left;
+    width: 50%;
+}
+aside div p span i {
+    color: white;
+    background-color: #6ca05f;
+    cursor: pointer;
+}
+#enlaces {
+    text-align: right;
+}
+#enlaces span {
+    margin-right: 2px;
+}
+/***Estilos Pre-footer***/
+ol {
+    list-style-type: none;
+    margin: 20px 0px 0px 0px;
+}
+ol li {
+    color: #9E9E9E;
+    padding: 8px;
+    border-bottom: 1px solid;
+}
+ol li a {
+	color: #9E9E9E;
+    text-decoration: none;
+}
+ol li:hover a {
+    color: grey;
+    text-decoration: none;
+}
+ol li a u {
+    color: white;
+}
+ol li a:hover u {
+    color: grey;
+}
+ol li span {
+    color: green;
+}
+/***Sección footer***/
+footer {
+    margin-top: 70px;
+    background: #212121;
+    line-height: 200px;
+	overflow: hidden;
+}
+.row {
+    margin-top: 30px;
+    height: 250px;
+    line-height: normal;
+}
+.main h2 {
+    color: white;
+}
+.main ol {
+    width: 90%;
+}
+.main input {
+    width: 90%;
+    float: right;
+    margin: 10px;
+    height: 35px;
+}
+input[type="submit"] {
+    width: 50%;
+    font-weight: bold;
+}
+.contacto {
+    height: 150px;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 30px;
+}
+.contacto div p {
+    width: 100%;
+    float: left;
+    line-height: normal;
+}
+.contacto div p a {
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
